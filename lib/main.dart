@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Startup Name Generator',
+      title: 'SOS Application',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -57,7 +57,7 @@ class _LoginPageState extends State<LoginPage> {
           border:
           OutlineInputBorder(borderRadius: BorderRadius.circular(32.0))),
     );
-    final loginButon = Material(
+    final loginButton = Material(
       elevation: 5.0,
       borderRadius: BorderRadius.circular(30.0),
       color: Color(0xff01A0C7),
@@ -94,7 +94,7 @@ class _LoginPageState extends State<LoginPage> {
                 SizedBox(height: 25.0),
                 passwordField,
                 SizedBox(height: 25.0),
-                loginButon,
+                loginButton,
                 SizedBox(
                   height: 15.0,
                 ),
@@ -106,5 +106,3 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 }
-
-TextStyle style = TextStyle(fontFamily: 'Montserrat', fontSize: 20.0);
