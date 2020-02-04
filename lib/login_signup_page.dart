@@ -85,6 +85,7 @@ class _LoginSignupPageState extends State<LoginSignupPage>{
     resetForm();
     setState(() {
       _isLoginForm = !_isLoginForm;
+      _isLoading = false;
     });
   }
 
