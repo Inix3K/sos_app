@@ -28,8 +28,10 @@ class _LoginSignupPageState extends State<LoginSignupPage>{
     if (form.validate()) {
       form.save();
       return true;
+    } else {
+     // _isLoading = false;
+      return false;
     }
-    return false;
   }
 
   // Perform login or signup
@@ -155,7 +157,7 @@ class _LoginSignupPageState extends State<LoginSignupPage>{
     return new Hero(
       tag: 'hero',
       child: Padding(
-        padding: EdgeInsets.fromLTRB(0.0, 70.0, 0.0, 0.0),
+        padding: EdgeInsets.fromLTRB(0.0, 20.0, 0.0, 0.0),
         child: CircleAvatar(
           backgroundColor: Colors.transparent,
           radius: 100.0,
