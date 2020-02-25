@@ -68,6 +68,8 @@ This app uses a variety of software to manage creation and upkeep.
 			Code files are in the lib folder.
 				authentication.dart
 					Defines authentication class and authentication functions.
+                drawer.dart
+                    Drawer widget for navigation.
 				home_page.dart
 					Initial log in page, placeholder for dashboard.
 				login_signup_page.dart

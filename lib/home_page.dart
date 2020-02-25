@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sos_app/authentication.dart';
-import 'package:sos_app/profile.dart';
-import 'package:sos_app/view_feedback.dart';
-import 'package:sos_app/submit_feedback.dart';
+import 'package:sos_app/drawer.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key, this.auth, this.userId, this.logoutCallback})
@@ -39,7 +37,7 @@ class _HomePageState extends State<HomePage> {
 
   Widget showDashboard() {
     return Padding(
-      padding: const EdgeInsets.fromLTRB(0.0, 20.0, 0.0, 0.0),
+      padding: const EdgeInsets.fromLTRB(20.0, 20.0, 0.0, 0.0),
       child: new Text("This is the Dashboard page"),
     );
   }
@@ -58,67 +56,7 @@ class _HomePageState extends State<HomePage> {
                 onPressed: signOut)
           ],
         ),
-      drawer: Drawer(
-          child: Column(
-            children: <Widget>[
-              UserAccountsDrawerHeader(
-                // This should display current username, email, and avatar photo in future iterations
-                accountEmail: Text("Email@email.com"),
-                accountName: Text("User Name"),
-                currentAccountPicture: CircleAvatar(
-                  child: Image.asset('assets/logo.png'),
-                ),
-              ),
-              ListTile(
-                leading: Icon(Icons.home),
-                title: Text("Home"),
-                onTap: () {
-                  Navigator.pop(context);
-                },
-              ),
-              ListTile(
-                leading: Icon(Icons.portrait),
-                title: Text("Profile"),
-                onTap: () {
-                  // Load Profile Page
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => ProfilePage()));
-                },
-              ),
-              ListTile(
-                leading: Icon(Icons.list),
-                title: Text("View Feedback"),
-                onTap: () {
-                  // Load View Feedback Page
-                  Navigator.push(context, MaterialPageRoute(
-                      builder: (context) => ViewFeedbackPage()));
-                },
-              ),
-              ListTile(
-                leading: Icon(Icons.feedback),
-                title: Text("Submit Feedback"),
-                onTap: () {
-                  // Load Submit Feedback Page
-                  Navigator.push(context, MaterialPageRoute(
-                      builder: (context) => SubmitFeedbackPage()));
-                },
-              ),
-              Divider(),
-              Expanded(
-                  child: Align(
-                    alignment: FractionalOffset.bottomCenter,
-                    child: ListTile(
-                      leading: Icon(Icons.settings),
-                      title: Text("Settings"),
-                      onTap: () {
-                        // Load Settings Page
-                      },
-                    ),
-                  )
-              )
-            ],
-          )
-      ),
+      drawer: MyDrawer("Home"),
       body: Stack(
         children: <Widget>[
           showDashboard(),
