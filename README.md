@@ -18,14 +18,14 @@ samples, guidance on mobile development, and a full API reference.
 
 Below is a step-by-step guide with links on getting started on the sos_app.
 This app uses a variety of software to manage creation and upkeep.
-	- 1) GitHub and GitBash for code saving.
-	- 2) Flutter for app creation.
-	- 3) Android Studio for code work and testing on android (There are other editors for Apple products, we used Android Studio).
-	    -- a) Even if you use a physical device for testing, you still need Android Studio (or another editor) for code work.
-	    -- b) You have the ability to use your physical device or an emulator. The Androids are discussed here.
-	    -- c) In order to use a physical iPhone, you must use a mac to test the app on it. Follow this link for ways around on a Windows.
-	        --- https://learnappmaking.com/develop-ios-apps-on-windows-pc/
-	- 4) FireBase for database.
+	1. GitHub and GitBash for code saving.
+	2. Flutter for app creation.
+	3. Android Studio for code work and testing on android (There are other editors for Apple products, we used Android Studio).
+	    - Even if you use a physical device for testing, you still need Android Studio (or another editor) for code work.
+	    - You have the ability to use your physical device or an emulator. The Androids are discussed here.
+	    - In order to use a physical iPhone, you must use a mac to test the app on it. Follow this link for ways around on a Windows.
+	        - https://learnappmaking.com/develop-ios-apps-on-windows-pc/
+	4. FireBase for database.
 
 ### GitHub and GitBash
 	Create a profile on GitHub and have an instructor add you as a contributor.
