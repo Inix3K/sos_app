@@ -3,6 +3,7 @@ import 'package:sos_app/profile.dart';
 import 'package:sos_app/home_page.dart';
 import 'package:sos_app/view_feedback.dart';
 import 'package:sos_app/submit_feedback.dart';
+import 'package:dynamic_theme/dynamic_theme.dart';
 
 class MyDrawer extends StatelessWidget {
   MyDrawer(this.currentPage);
@@ -75,8 +76,14 @@ class MyDrawer extends StatelessWidget {
             leading: Icon(Icons.settings),
             title: Text("Settings"),
             onTap: () {
-              // Load Settings Page
-              Navigator.pop(context);
+              // Theme toggle as placeholder for Settings
+              DynamicTheme.of(context).setBrightness(Theme
+                  .of(context)
+                  .brightness == Brightness.dark ? Brightness.light : Brightness
+                  .dark);
+
+              //Navigator.pop(context);
+
               if (this.currentPage == "Settings") return;
               //Navigator.push(context, MaterialPageRoute(builder: (context) => SettingsPage()));
             },
