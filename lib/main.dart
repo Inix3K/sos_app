@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
         title: 'SOS Application',
         debugShowCheckedModeBanner: false,
+        // TODO Allow dynamic theme changes (Light/Dark/System)
         theme: new ThemeData(
           primarySwatch: Colors.blue,
         ),
