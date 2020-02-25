@@ -8,13 +8,13 @@ Initial implementation of this program will be a source for submitting and viewi
 
 End goal is a one-stop source for all SOS related information, tying into the currently used Canvas system.
 
-# PHASE 1
+## PHASE 1
 
 Initial app created with Flutter for Android and iOS compatibility.
 Authentication implemented using Firebase.
 Initial navigation scheme implemented.
 
-# Todo
+## Todo
 
 Navigation drawer should be pulled out from individual files and stored as a separate class.
 
