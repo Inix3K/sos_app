@@ -11,7 +11,9 @@ End goal is a one-stop source for all SOS related information, tying into the cu
 ## PHASE 1
 
 Initial app created with Flutter for Android and iOS compatibility.
+
 Authentication implemented using Firebase.
+
 Initial navigation scheme implemented.
 
 ## Todo
