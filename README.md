@@ -1,16 +1,30 @@
 # sos_app
 
-SOS Multiplatform Application
+SOS Multi-platform Application
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Initial implementation of this program will be a source for submitting and viewing feedback.
 
-A few resources to get you started if this is your first Flutter project:
+End goal is a one-stop source for all SOS related information, tying into the currently used Canvas system.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# PHASE 1
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Initial app created with Flutter for Android and iOS compatibility.
+Authentication implemented using Firebase.
+Initial navigation scheme implemented.
+
+# Todo
+
+Navigation drawer should be pulled out from individual files and stored as a separate class.
+
+Queries to Firebase databases needed:
+- User account/profile information
+- View feedback
+- Specific class information as applicable for feedback submission form auto-fills.
+
+Feedback form creation and tie-in to Firebase database
+
+Syncing of Information between Firebase and Canvas
+- Improve authentication to simplify user access between Canvas and the app
+- Sync user profile
