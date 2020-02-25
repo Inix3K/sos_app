@@ -8,8 +8,8 @@ This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+[Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+[Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
@@ -23,7 +23,7 @@ This app uses a variety of software to manage creation and upkeep.
 	3) Android Studio for code work and testing on android (There are other editors for Apple products, we used Android Studio).
 	4) FireBase for database.
 
-GitHub and GitBash
+### GitHub and GitBash
 	Create a profile on GitHub and have an instructor add you as a contributor.
 	Install git
 	https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
@@ -31,9 +31,9 @@ GitHub and GitBash
 		cd <WHERE_APP_WILL_GO>
 		git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
-A short guide in helping getting things ready. This largely follows the following link below with possible issues faced. I will get into them in some detail.
+### Flutter
+    A short guide in helping getting things ready. This largely follows the following link below with possible issues faced. I will get into them in some detail.
 	https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1/#0
-Flutter
 	Step 1: Introduction
 	Step 2: Set up your flutter environment
 		Download flutter sdk and editor. Follow the links for where to download the options. Even if you have your own device, it is extremely recommended to use Android Studio.
@@ -42,7 +42,7 @@ Flutter
 	Step 3+:
 		Good information and good start for how to use flutter to make an app.
 
-Android Studio
+### Android Studio
 	Step 1: Install
 	Step 2: Set up an editor
 		1) When opening for first time, open the project you cloned with GitBash.
@@ -89,7 +89,7 @@ Android Studio
 	Step 4+:
 		Similar to the Flutter section, good start of how to use flutter to make an app.
 
-FireBase
+### FireBase
 	The guide follows the following link:
 	https://firebase.google.com/docs/flutter/setup?platform=android
 	Log into FireBase and get access to the project.
@@ -100,7 +100,7 @@ FireBase
 		https://www.youtube.com/watch?v=N0WqTclxkaE
 	The app already authenticates with a new user in the "Authentication" section as well as a start for the user profiles in the "Database" section.
 
-Next Steps:
+### Next Steps:
 	Ability to give and receive feedback
 		Users can view the feedback given to them
 		User to User
