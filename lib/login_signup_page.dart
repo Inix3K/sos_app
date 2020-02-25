@@ -65,6 +65,7 @@ class _LoginSignupPageState extends State<LoginSignupPage>{
           _isLoading = false;
           _errorMessage = e.message;
           _formKey.currentState.reset();
+          //_passwordKey.currentState.reset();
         });
       }
     }
